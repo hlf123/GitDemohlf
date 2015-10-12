@@ -14,6 +14,7 @@
 		BC59B15F1BCB5B090014BB50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC59B15E1BCB5B090014BB50 /* Images.xcassets */; };
 		BC59B1621BCB5B090014BB50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC59B1601BCB5B090014BB50 /* LaunchScreen.xib */; };
 		BC59B16E1BCB5B090014BB50 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC59B16D1BCB5B090014BB50 /* GitDemoTests.m */; };
+		BC59B1791BCB642E0014BB50 /* help.m in Sources */ = {isa = PBXBuildFile; fileRef = BC59B1781BCB642E0014BB50 /* help.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BC59B1671BCB5B090014BB50 /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC59B16C1BCB5B090014BB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC59B16D1BCB5B090014BB50 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		BC59B1771BCB642E0014BB50 /* help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = help.h; sourceTree = "<group>"; };
+		BC59B1781BCB642E0014BB50 /* help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = help.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				BC59B15E1BCB5B090014BB50 /* Images.xcassets */,
 				BC59B1601BCB5B090014BB50 /* LaunchScreen.xib */,
 				BC59B1511BCB5B080014BB50 /* Supporting Files */,
+				BC59B1771BCB642E0014BB50 /* help.h */,
+				BC59B1781BCB642E0014BB50 /* help.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				BC59B15A1BCB5B090014BB50 /* ViewController.m in Sources */,
 				BC59B1571BCB5B090014BB50 /* AppDelegate.m in Sources */,
+				BC59B1791BCB642E0014BB50 /* help.m in Sources */,
 				BC59B1541BCB5B090014BB50 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				BC59B1731BCB5B090014BB50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC59B1741BCB5B090014BB50 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				BC59B1761BCB5B090014BB50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
